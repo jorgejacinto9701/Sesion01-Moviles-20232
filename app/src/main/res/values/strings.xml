@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sesion02_29_08_2023</string>
+
+    <string-array name="Pasatiempos">
+           <item>Seleccione Pasatiempo</item>
+           <item>Codear</item>
+           <item>Jugar</item>
+           <item>Idiomas</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+
+    >
+
+    <!-- comentarios -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Registro de Cliente"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+       />
+
+
+    <EditText
+        android:id="@+id/idTxtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Nombres"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:layout_margin="5dp"
+         />
+
+    <EditText
+        android:id="@+id/idTxtApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Apellidos"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:layout_margin="5dp"
+        />
+
+    <Spinner
+        android:id="@+id/idSpnPasatiempos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:entries="@array/Pasatiempos"
+        />
+
+    <EditText
+        android:id="@+id/idtxtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Correo"
+        android:drawableLeft="@drawable/baseline_alternate_email_24"
+        android:layout_margin="5dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/idTxtFecNac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:drawableLeft="@drawable/baseline_date_range_24"
+        />
+
+    <Button
+        android:id="@+id/idBtnRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:layout_margin="5dp"
+        />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
